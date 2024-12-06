@@ -1,0 +1,79 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+.cart-heading img{
+    margin-top: 50px;
+    height: 446px;
+    width: 797px;
+}
+.cart-heading h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 15px;
+    font-size: 35px;
+}
+.cart-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cart-logo p{
+    color: #383838;
+    font-size: 36px;
+    font-weight: 700;
+}
+@media(max-width:800px){
+    .cart{
+        gap: 20px;
+    }
+    .cart-logo{
+        gap: 10px;
+        align-items: end;
+    }
+    .cart-heading img{
+        margin-top: 30px;
+        height: 346px;
+        width: 530px;
+    }
+    .cart-heading h2{
+        font-size: 25px;
+    }
+    .cart-logo img{
+        width: 40px;
+    }
+    .cart-logo p{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+}
+@media(max-width:500px){
+    .cart{
+        gap: 20px;
+    }
+    .cart-logo{
+        gap: 10px;
+        align-items: end;
+    }
+    .cart-heading img{
+        margin-top: 130px;
+        height: 246px;
+        width: 397px;
+    }
+    .cart-heading h2{
+        font-size: 19px;
+    }
+    .cart-logo img{
+        width: 40px;
+    }
+    .cart-logo p{
+        margin-top: 100px;
+        font-size: 19px;
+    }
+}

@@ -9,6 +9,7 @@ body {
 .contact-page {
   padding: 50px 20px;
   background: #f8f9fa;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
 }
 
 .contact-header {

@@ -18,12 +18,12 @@ export const Navbar = () => {
     <div className='navbar'>
         <div className="nav-logo">
             <img src={logo} alt="" />
-            <p>FashionNest</p>
+            <p>FASHIONNEST</p>
         </div>
             <img className='nav-dropdown' onClick={dropdown_toggle} src={nav_dropdown} alt="" />
             <ul ref={menuRef} className="nav-menu">
                 <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none', color:'black'}} to='/'>Home</Link>{menu==="shop"?<hr/>:<></>}</li>
-                <li onClick={()=>{setMenu("mens")}}><Link style={{textDecoration:'none', color:'black'}} to='/mens'>Product</Link>{menu==="mens"?<hr/>:<></>}</li>
+                <li onClick={()=>{setMenu("mens")}}><Link style={{textDecoration:'none', color:'black'}} to='/products'>Product</Link>{menu==="mens"?<hr/>:<></>}</li>
                 <li onClick={()=>{setMenu("about")}}><Link style={{textDecoration:'none', color:'black'}} to='/about'>About</Link>{menu==="about"?<hr/>:<></>}</li>
                 <li onClick={()=>{setMenu("contact")}}><Link style={{textDecoration:'none', color:'black'}} to='/contact'>Contact</Link>{menu==="contact"?<hr/>:<></>}</li>
             </ul>
